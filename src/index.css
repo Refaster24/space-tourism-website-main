@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Condensed',serif;
+}
+
+.Bellefair{
+    font-family: 'Bellefair', serif;
+}
+
+#spaceLaunchs ul:first-of-type li,
+#member ul:first-of-type li {
+    opacity: 1;
+}

@@ -39,14 +39,14 @@ export default function Destination(){
             <img src={e.images.png} alt={e.name}/>
         </div>
         <div className="basis-2/5 max-lg:text-center max-lg:my-12 max-lg:pr-0 max-md:px-4">
-            <ul className="flex justify-between text-[#d0d6f9] text-2xl">
+            <div className="flex justify-between text-[#d0d6f9] text-2xl">
 
                 {naturalSatellite.map((e,id)=>{
-                    return <div key={id}>{e}</div>
+                    return <ul key={id}>{e}</ul>
                 }
                 )}
 
-            </ul>
+            </div>
             <h1 className="text-9xl text-white my-4 Bellefair max-md:text-8xl max-md:mb-4">{e.name}</h1>
             <p className="text-xl text-[#d0d6f9] max-md:w-[340px]">
             {e.description}

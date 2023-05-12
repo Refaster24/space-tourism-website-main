@@ -10,8 +10,8 @@ export default function Destination(){
 
     useEffect(()=>{
         async function fetchApi(){
-            const api = await destinations()
-            const apiData = await api
+            const apiData = destinations()
+            console.log(apiData)
             setData(apiData)
             setState([apiData[0]])
         }

@@ -1,4 +1,4 @@
-import data from  '../data.json' assert {type:'json'}
+import data from  '../public/data.json' 
 
 export function destinations(){
     const filter = data.destinations

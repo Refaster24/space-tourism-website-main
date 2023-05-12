@@ -1,6 +1,3 @@
-import logo from './assets/shared/logo.svg'
-import close from './assets/shared/icon-close.svg'
-import hamburger from'./assets/shared/icon-hamburger.svg'
 import { useState ,useEffect } from 'react'
 
 export default function Header(){
@@ -18,14 +15,14 @@ export default function Header(){
     
     let desktopUlDisplay
     let buttonDisplay =  'none'
-    let icone = hamburger
+    let icone = './assets/shared/icon-hamburger.svg'
     let mobileUlDisplay= 'none'
     
     if(windowWidth <= 768){
         desktopUlDisplay = 'none'
         buttonDisplay = 'block'
         if(state === false){
-            icone = close
+            icone = './assets/shared/icon-close.svg'
             mobileUlDisplay = 'block'
         }
     }
@@ -73,7 +70,7 @@ export default function Header(){
     return(
         <header className='px-12 absolute top-6 w-full flex items-center justify-between'>
             <a href="../index.html">
-            <img src={logo} alt="logo"/>
+            <img src='./assets/shared/logo.svg' alt="logo"/>
             </a>
             <nav>
                 <ul style={{display:desktopUlDisplay}} className="text-white bg-transparent backdrop-blur-md flex gap-12">

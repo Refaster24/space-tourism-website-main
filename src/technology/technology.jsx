@@ -47,7 +47,7 @@ export default function Technology(){
                     image = e.images.landscape
                   }
                 return (
-    <section key={id} className="flex items-center justify-end gap-36 pl-4 max-lg:flex-col-reverse lg:items-end max-lg:w-[30em] max-md:w-auto">
+    <section key={id} className="flex items-center justify-end gap-36 pl-4 max-lg:flex-col-reverse lg:items-end max-lg:w-[30em] max-md:w-auto max-md:gap-7">
         <div className="basis-2/5 self-center flex space-y-4 max-lg:flex-col max-lg:text-center max-lg:my-12 max-lg:pr-0 max-md:px-4 max-md:items-center">
             <div id='spaceLaunchs' className="flex lg:flex-col  gap-4 mt-4 text-[#d0d6f9] text-2xl lg:mr-10 max-lg:justify-center">
 

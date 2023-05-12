@@ -25,7 +25,7 @@ export default function Destination(){
     }
 
     return (
-    <main className='py-[10em] min-h-screen grid place-items-center bg-cover bg-no-repeat bg-[url(".../public/assets/destination/background-destination-desktop.jpg")] max-lg:bg-[url(".../public/assets/destination/background-destination-tablet.jpg")]'>
+    <main className='py-[10em] min-h-screen grid place-items-center bg-cover bg-no-repeat bg-[url("/assets/destination/background-destination-desktop.jpg")] max-lg:bg-[url("/assets/destination/background-destination-tablet.jpg")]'>
           {
               state.map((e,id)=>{
                 return (

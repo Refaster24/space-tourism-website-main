@@ -39,7 +39,7 @@ export default function Technology(){
     }
 
     return (
-    <main className='pt-[10em] min-h-screen grid lg:place-items-end content-center bg-cover bg-no-repeat bg-[url(".../public/assets/technology/background-technology-desktop.jpg")] max-lg:place-items-center max-lg:bg-[url(".../public/assets/technology/background-technology-tablet.jpg")]'>
+    <main className='pt-[10em] min-h-screen grid lg:place-items-end content-center bg-cover bg-no-repeat bg-[url("/assets/technology/background-technology-desktop.jpg")] max-lg:place-items-center max-lg:bg-[url("/assets/technology/background-technology-tablet.jpg")]'>
           {
               state.map((e,id)=>{
                   let image = e.images.portrait

@@ -1,20 +1,15 @@
-async function fetchData(){
-    const fetching = await fetch('data.json')
-    const data = await fetching.json()
-    return data
-}
-export async function destinations(){
-    const data = await fetchData()
+import data from  '../data.json' assert {type:'json'}
+
+export function destinations(){
     const filter = data.destinations
     return filter
 }
-export async function crew(){
-    const data = await fetchData()
+destinations()
+export function crew(){
     const filter = data.crew
     return filter
 }
-export async function technology(){
-    const data = await fetchData()
+export function technology(){
     const filter = data.technology
     return filter
 }

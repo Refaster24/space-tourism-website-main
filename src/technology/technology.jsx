@@ -5,6 +5,8 @@ export default function Technology(){
 
     const [data,setData] = useState([])
     const [state, setState] = useState([])
+
+    // I want to use the fetch XD
     
     useEffect(()=>{
         async function fetchApi(){

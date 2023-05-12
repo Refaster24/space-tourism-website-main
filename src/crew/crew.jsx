@@ -39,7 +39,7 @@ export default function Crew(){
 
     return (
 
-    <main className='pt-[10em] min-h-screen grid place-items-center content-end bg-cover bg-no-repeat bg-[url("./assets/crew/background-crew-desktop.jpg")] max-lg:bg-[url("./assets/crew/background-crew-tablet.jpg")]'>
+    <main className='pt-[10em] min-h-screen grid place-items-center content-end bg-cover bg-no-repeat bg-[url(".../public/assets/crew/background-crew-desktop.jpg")] max-lg:bg-[url(".../public/assets/crew/background-crew-tablet.jpg")]'>
           {
               state.map((e,id)=>{
                 return (

@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <main className='py-[10em] min-h-screen grid place-items-center bg-cover bg-no-repeat bg-[url("./assets/home/background-home-desktop.jpg")] max-lg:bg-[url("./assets/home/background-home-tablet.jpg")]'>
+    <main className='py-[10em] min-h-screen grid place-items-center bg-cover bg-no-repeat bg-[url(".../public/assets/home/background-home-desktop.jpg")] max-lg:bg-[url(".../public/assets/home/background-home-tablet.jpg")]'>
       <section className="flex justify-evenly max-lg:flex-col items-center max-lg:w-[30em] max-md:w-auto">
         <div className="basis-1/2 pr-10 max-lg:text-center max-lg:mb-12 max-lg:pr-0 max-md:px-4">
           <span className="text-[#d0d6f9] text-3xl max-md:text-2xl">So, you want to travel to</span>
